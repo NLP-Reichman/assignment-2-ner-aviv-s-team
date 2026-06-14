@@ -1,6 +1,6 @@
 {
   "test_link": {
-    "link": "https://colab.research.google.com/drive/1oJ9eRfjer065LFVWhQDOhSY0sfCVOHJh#scrollTo=CFnLJL1DL5mW"
+    "link": "https://colab.research.google.com/drive/1oJ9eRfjer065LFVWhQDOhSY0sfCVOHJh?usp=sharing"
   },
   "test_read_data": {
     "lengths": [
@@ -26,11 +26,11 @@
     ]
   },
   "test_NERNet": {
-    "f1": 0.9029332768321051,
-    "f1_wo_o": 0.6948253973425143
+    "f1": 0.9134479744654028,
+    "f1_wo_o": 0.7397856907712165
   },
   "test_glove": {
-    "f1": 0.8848334861865959,
-    "f1_wo_o": 0.5767033900512711
+    "f1": 0.9515522400618294,
+    "f1_wo_o": 0.8517524992698218
   }
 }
