@@ -1,0 +1,6 @@
+glove.6B.300d.txt
+data/
+*.png
+run_assignment.py
+fill_notebook.py
+.DS_Store
