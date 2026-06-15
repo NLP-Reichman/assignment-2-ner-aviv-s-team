@@ -79,7 +79,7 @@ def test_glove():
     # Create model
     best_model = NERNet(vocab.n_words, embedding_size=300, hidden_size=hidden_size, output_size=vocab.n_tags, n_layers=n_layers, directions=directions)
     best_model.to(DEVICE)
-    initialize_from_pretrained_emb(ner_glove, emb_matrix)
+    initialize_from_pretrained_emb(best_model, emb_matrix)
 
     # Train model and evaluate
     _ = train_loop(best_model, n_epochs=10, dataloader_train=dl_train, dataloader_dev=dl_dev)
